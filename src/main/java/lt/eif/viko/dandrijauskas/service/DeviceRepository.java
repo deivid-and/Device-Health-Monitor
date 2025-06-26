@@ -6,6 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * handles device storage and lookup.
+ */
+
 public class DeviceRepository {
     private final List<Device> devices = new ArrayList<>();
 

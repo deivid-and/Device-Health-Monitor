@@ -2,7 +2,9 @@ package lt.eif.viko.dandrijauskas.model;
 
 import java.util.List;
 
-// monitored device.
+/**
+ * represents a device in the system.
+ */
 
 public class Device {
     private String deviceId;

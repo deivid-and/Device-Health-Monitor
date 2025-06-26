@@ -1,8 +1,8 @@
 package lt.eif.viko.dandrijauskas.model;
 
-import java.time.LocalDateTime;
-
-// single health report entry for a device.
+/**
+ * represents a single health report for a device.
+ */
 
 public class HealthReport {
     private String timestamp;

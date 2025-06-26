@@ -5,6 +5,10 @@ import lt.eif.viko.dandrijauskas.model.Device;
 import javax.jws.WebService;
 import java.util.List;
 
+/**
+ * implementation of the device health soap service.
+ */
+
 @WebService(endpointInterface = "lt.eif.viko.dandrijauskas.service.DeviceHealthService")
 public class DeviceHealthServiceImpl implements DeviceHealthService {
 
